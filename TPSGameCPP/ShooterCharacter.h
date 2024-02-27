@@ -35,13 +35,13 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	void Interact();
-	void AimEnemy();
+	/*void AimEnemy();
 	void Shoot();
 	void Released();
-	void reload();
+	void reload();*/
 	void ToggleHUD();
 
-	void reloadAnimation();
+	/*void reloadAnimation();
 	void shootAnimation();
 	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser)override;
 
@@ -70,7 +70,7 @@ public:
 	void equipShotgun();
 
 	//pickUp item
-	void pickUpAmmo(EGunInHand AmmoType, uint8 Amount);
+	void pickUpAmmo(EGunInHand AmmoType, uint8 Amount);*/
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = UI)
 		TSubclassOf<class UMainHUD> HUDWidgetTemplate;
@@ -80,7 +80,7 @@ public:
 	TArray<FInventoryStruct> PickedItems;
 	class AActorNeedItem* ActorNeedItem;
 
-private:
+/*private:
 
 	APistol* Pistol;
 	ARifle* Rifle;
@@ -123,6 +123,6 @@ private:
 		uint8 SpeedRotateControl = 150;
 	float DeltaT;
 	void UpdateSpringArm();
-	bool bAiming = false;
+	bool bAiming = false;*/
 
 };
