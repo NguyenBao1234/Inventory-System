@@ -1,0 +1,1 @@
+Hệ thống này bao gồm các khía cạnh sau: Class Inventory được nhặt bởi Player. các Class Widget lấy thông tin của Player để hiển thị các Item, Các Widget sẽ bao gồm 4 chức năng chính : Examine, Use (bao gồm Interactive Part), Combine , Cancel. Tiếp theo là Class ActorNeedItem tức là sẽ có thể tương tác qua Item
