@@ -4,7 +4,7 @@ The Widget Class takes the Player's information to display Items, the Widget sys
 Next is Class ActorNeedItem, which means you will be able to interact through Item
 
 *Note:
-  This is a small excerpt from my Game project so some of the names may seem unrelated
+  This is a small excerpt from my Game project so some of the names may seem unrelated.
   You can use or build from my Code as long as attribution is given
 
 
@@ -14,5 +14,5 @@ các Class Widget lấy thông tin của Player để hiển thị các Item, h�
 Tiếp theo là Class ActorNeedItem tức là sẽ có thể tương tác qua Item
 
 Chú ý:
-  Đây là 1 phần nhỏ trích từ dự án Game của tôi vì vậy 1 số tên có vẻ không liên quan
+  Đây là 1 phần nhỏ trích từ dự án Game của tôi vì vậy 1 số tên có vẻ không liên quan.
   Bạn có thể sử dụng hoặc xây dựng từ Code của tôi miễn là có ghi công
